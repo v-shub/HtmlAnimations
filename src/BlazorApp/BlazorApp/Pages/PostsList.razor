@@ -1,0 +1,38 @@
+﻿@page "/posts-list"
+@using Microsoft.EntityFrameworkCore;
+@using BlazorApp.Models;
+@inject FamilyLifeContext context
+@attribute [Authorize(Roles ="Administrator,User")]
+
+<MudText Typo="Typo.h3" Align="Align.Center" GutterBottom="true">Посты</MudText>
+<MudGrid Class="mt-8">
+    @foreach (var post in posts){
+            <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                            <MudText Typo="Typo.h3" Align="Align.Center">@post.Header</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+                            <MudText Typo="Typo.h5" Class="ml-1 mt-5" Color="Color.Secondary">@post.Creator.Username</MudText>
+                    </div>
+                    <MudList Class="mx-auto mt-4" Style="width:300px;">
+                            @post.PostContent
+                    </MudList>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    }
+</MudGrid>
+
+@code {
+    private List<Post> posts = new List<Post>();
+    private List<User> users = new List<User>();
+    protected override async Task OnInitializedAsync()
+    {
+        posts = await context.Posts.ToListAsync();
+        users = await context.Users.ToListAsync();
+    }
+}

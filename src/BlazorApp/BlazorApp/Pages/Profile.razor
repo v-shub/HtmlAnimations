@@ -1,0 +1,23 @@
+﻿@page "/user/profile"
+@using Microsoft.EntityFrameworkCore;
+@using BlazorApp.Shared.Auth;
+@using BlazorApp.Models;
+@inject AuthenticationStateProvider authStateProvider
+@inject FamilyLifeContext context
+@attribute [Authorize(Roles = "Administrator,User")]
+
+<MudText Typo="Typo.h3" Align="Align.Center" GutterBottom="true">Профиль</MudText>
+<MudText>Ваш логин: @user.Username</MudText>
+<MudText>Ваша дата рождения: @user.BirthdayDate</MudText>
+<MudText>Количество детей: @user.ChildrenCount</MudText>
+<MudText>Дополнительная информация: @user.ExtraInfo</MudText>
+
+@code {
+    User user = new User();
+    protected override async Task OnInitializedAsync()
+    {
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)authStateProvider;
+        var authState = await customAuthStateProvider.GetAuthenticationStateAsync();
+        user = context.Users.Find(Convert.ToInt32(authState.User.Claims.First().Value));
+    }
+}
