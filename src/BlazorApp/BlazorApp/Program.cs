@@ -18,6 +18,7 @@ builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStat
 builder.Services.AddScoped<ProtectedSessionStorage>();
 builder.Services.AddScoped<ProtectedLocalStorage>();
 builder.Services.AddMudServices();
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 

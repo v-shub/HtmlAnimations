@@ -1,11 +1,15 @@
-﻿<CascadingAuthenticationState>
-    <Router AppAssembly="@typeof(App).Assembly">
+﻿@using System.Net.Http.Headers;
+@inject IHttpClientFactory ClientFactory
+@inject NavigationManager navManager
+
+<CascadingAuthenticationState>
+    <Router AppAssembly="@typeof(Program).Assembly">
         <Found Context="routeData">
             <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
             <NotAuthorized>
-                <h1>Сюда нельзя</h1>
-                <p>Пожалуйста, уходите</p>
-                <a href="/">Главная страница</a>
+                <PageTitle>Unauthorized</PageTitle>
+                <h1>Unauthorized</h1>
+                <lottie-player src="https://lottie.host/8e95f071-0e23-43f1-8cf3-e15e1a528787/e43Sne4uRG.json" background="transparent" speed="1" style="width: 500px; height: 500px;" loop autoplay></lottie-player>
             </NotAuthorized>
             <Authorizing>
                 Авторизация...
@@ -16,8 +20,24 @@
         <NotFound>
             <PageTitle>Not found</PageTitle>
             <LayoutView Layout="@typeof(MainLayout)">
-                <p role="alert">Sorry, there's nothing at this address.</p>
+                <lottie-player src="https://lottie.host/325b0472-360e-4ef8-beaf-789ebe80c770/lKNc5GknKz.json" background="transparent" speed="1" style="width: 500px; height: 500px;" loop autoplay></lottie-player>
             </LayoutView>
         </NotFound>
     </Router>
 </CascadingAuthenticationState>
+
+@code {/*
+    protected override async Task OnInitializedAsync()
+    {
+        HttpClient httpClient = ClientFactory.CreateClient();
+        var response = await httpClient.GetAsync("https://localhost:7255");
+        if (response != null)
+        {
+            var statusCode = Convert.ToInt32(response.StatusCode);
+            if (statusCode < 406 & statusCode > 399 | statusCode > 499 & statusCode < 504)
+            {
+                navManager.NavigateTo($"/{statusCode}");
+            }
+        }
+    }*/
+}
