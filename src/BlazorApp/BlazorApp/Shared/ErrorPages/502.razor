@@ -1,8 +1,13 @@
 ﻿@page "/502"
 
+@inject NavigationManager navManager
+
 <PageTitle>Bad Gateway</PageTitle>
 
-<h1>Bad Gateway</h1>
+<h1>Error 502: Bad Gateway</h1>
+
+
+<lottie-player id="502Lottie" src="https://lottie.host/6f4a9360-891b-4198-aeb1-34a8cec48c2a/5PW3AzmQOV.json" background="transparent" speed="1" style="width: 200px; height: 200px;" @onclick="GoHome"></lottie-player>
 
 <div class="container">
 
@@ -15,3 +20,9 @@
 
 </div>
 
+@code {
+	private async Task GoHome()
+	{
+		navManager.NavigateTo("/", true);
+	}
+}

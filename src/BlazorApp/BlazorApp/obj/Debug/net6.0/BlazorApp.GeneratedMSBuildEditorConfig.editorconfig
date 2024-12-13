@@ -9,83 +9,121 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorApp
 build_property.RootNamespace = BlazorApp
-build_property.ProjectDir = C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\user\Desktop\Рабочий стол\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp
+build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\Рабочий стол\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/App.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/AddPost.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/AddPost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/Counter.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/CreateAccount.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/CreateAccount.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQWNjb3VudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/FetchData.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/Index.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/Login.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/PostsList.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/PostsList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdHNMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/Profile.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/Profile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/SurveyPrompt.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/ErrorPages/401.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yUGFnZXNcNDAxLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/ErrorPages/402.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yUGFnZXNcNDAyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/ErrorPages/403.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yUGFnZXNcNDAzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/ErrorPages/404.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yUGFnZXNcNDA0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/Themes/ThemesButton.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/Themes/ThemesButton.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRoZW1lc1xUaGVtZXNCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/Themes/ThemesMenu.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/Themes/ThemesMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRoZW1lc1xUaGVtZXNNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/_Imports.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/MainLayout.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/ErrorPages/400.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yUGFnZXNcNDAwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-tgbqv7kttv
+
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/ErrorPages/405.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yUGFnZXNcNDA1LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-ss8emb7hp2
+
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/ErrorPages/500.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yUGFnZXNcNTAwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-unha550wdy
+
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/ErrorPages/501.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yUGFnZXNcNTAxLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-6pknt8v0s1
+
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/ErrorPages/502.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yUGFnZXNcNTAyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-t6sta73ax5
+
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/ErrorPages/503.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yUGFnZXNcNTAzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-beh2n2fkrf
+
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3dsd3z3yec
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/NavMenu.razor]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-7cxxmz0cwl
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/Error.cshtml]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/_Host.cshtml]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/_Layout.cshtml]
+[C:/Users/user/Desktop/Рабочий стол/Shubina/HtmlAnimations/src/BlazorApp/BlazorApp/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

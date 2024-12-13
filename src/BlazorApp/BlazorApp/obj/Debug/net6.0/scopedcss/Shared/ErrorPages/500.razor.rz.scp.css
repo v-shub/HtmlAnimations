@@ -1,0 +1,53 @@
+:root[b-unha550wdy] {
+    --firstColor: #00D69C;
+    --secondColor: #C52AFC;
+    --thirdColor: #FF1F00;
+    --fourthColor: #FFD600;
+}
+
+html[b-unha550wdy],
+body[b-unha550wdy] {
+    overflow: hidden;
+}
+
+main[b-unha550wdy] {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+}
+
+.blob[b-unha550wdy] {
+    margin: auto;
+}
+
+svg[b-unha550wdy] {
+    transform-origin: 50% 50%;
+    animation: move-b-unha550wdy 24s ease-in-out infinite;
+}
+
+@keyframes move-b-unha550wdy {
+    0% {
+        transform: scale(1) translate(0, 0) rotate(0);
+        fill: var(--firstColor);
+    }
+
+    25% {
+        transform: scale(0.8) translate(5vw, 10vh) rotate(55deg);
+        fill: var(--secondColor);
+    }
+
+    50% {
+        transform: scale(0.6) translate(15vw, 5vh) rotate(180deg);
+        fill: var(--thirdColor);
+    }
+
+    75% {
+        transform: scale(0.8) translate(5vw, 10h) rotate(55deg);
+        fill: var(--fourthColor);
+    }
+
+    100% {
+        transform: scale(1) translate(0, 0) rotate(0);
+        fill: var(--firstColor);
+    }
+}

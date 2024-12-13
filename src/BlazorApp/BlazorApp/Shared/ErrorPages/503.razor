@@ -1,8 +1,17 @@
 ﻿@page "/503"
 
+@inject NavigationManager navManager
+
 <PageTitle>Service Unavailable</PageTitle>
 
-<h1>Service Unavailable</h1>
+<h1>Error 503: Service Unavailable</h1>
+
+<button class="button" @onclick="GoHome">Ok</button>
 
 
-
+@code {
+    private async Task GoHome()
+    {
+        navManager.NavigateTo("/", true);
+    }
+}

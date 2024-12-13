@@ -1,3 +1,429 @@
+/* _content/BlazorApp/Shared/ErrorPages/400.razor.rz.scp.css */
+.wrapper[b-tgbqv7kttv] {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+}
+
+.typing-demo[b-tgbqv7kttv] {
+    width: 42ch;
+    animation: typing-b-tgbqv7kttv 2s steps(42), blink-b-tgbqv7kttv .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing-b-tgbqv7kttv {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink-b-tgbqv7kttv {
+    50% {
+        border-color: transparent
+    }
+}
+/* _content/BlazorApp/Shared/ErrorPages/405.razor.rz.scp.css */
+body[b-ss8emb7hp2] {
+    background: #ddd;
+    font: 14px/1.6em sans-serif;
+}
+
+.ribbon[b-ss8emb7hp2] {
+    width: 600px;
+    height: 60px;
+    margin: 100px auto 0px;
+    position: relative;
+    color: #fff;
+    font: 28px/60px sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    background: #3D79D0;
+    -webkit-animation: main 250ms;
+    -moz-animation: main 250ms;
+    -ms-animation: main 250ms;
+    animation: main-b-ss8emb7hp2 250ms;
+}
+
+    .ribbon i[b-ss8emb7hp2] {
+        position: absolute;
+    }
+
+        .ribbon i:first-child[b-ss8emb7hp2], .ribbon i:nth-child(2)[b-ss8emb7hp2] {
+            position: absolute;
+            left: -20px;
+            bottom: -20px;
+            z-index: -1;
+            border: 20px solid transparent;
+            border-right-color: #043140;
+            -webkit-animation: edge 500ms;
+            -moz-animation: edge 500ms;
+            -ms-animation: edge 500ms;
+            animation: edge-b-ss8emb7hp2 500ms;
+        }
+
+        .ribbon i:nth-child(2)[b-ss8emb7hp2] {
+            left: auto;
+            right: -20px;
+            border-right-color: transparent;
+            border-left-color: #043140;
+        }
+
+        .ribbon i:nth-child(3)[b-ss8emb7hp2], .ribbon i:last-child[b-ss8emb7hp2] {
+            width: 20px;
+            bottom: -20px;
+            left: -60px;
+            z-index: -2;
+            border: 30px solid #1D53C0;
+            border-left-color: transparent;
+            -webkit-animation: back 600ms;
+            -moz-animation: back 600ms;
+            -ms-animation: back 600ms;
+            animation: back-b-ss8emb7hp2 600ms;
+            -webkit-transform-origin: 100% 0;
+            -moz-transform-origin: 100% 0;
+            -ms-transform-origin: 100% 0;
+            transform-origin: 100% 0;
+        }
+
+        .ribbon i:last-child[b-ss8emb7hp2] {
+            bottom: -20px;
+            left: auto;
+            right: -60px;
+            border: 30px solid #1D53C0;
+            border-right-color: transparent;
+            -webkit-transform-origin: 0 0;
+            -moz-transform-origin: 0 0;
+            -ms-transform-origin: 0 0;
+            transform-origin: 0 0;
+        }
+
+p[b-ss8emb7hp2] {
+    text-align: center;
+    color: #aaa;
+}
+
+/* animations */
+
+@-webkit-keyframes main {
+    0% {
+        -webkit-transform: scaleX(0);
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+    }
+}
+
+@-webkit-keyframes edge {
+    0%, 50% {
+        -webkit-transform: scaleY(0);
+    }
+
+    100% {
+        -webkit-transform: scaleY(1);
+    }
+}
+
+@-webkit-keyframes back {
+    0%, 75% {
+        -webkit-transform: scaleX(0);
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+    }
+}
+
+
+@-moz-keyframes main {
+    0% {
+        -moz-transform: scaleX(0);
+    }
+
+    100% {
+        -moz-transform: scaleX(1);
+    }
+}
+
+@-moz-keyframes edge {
+    0%, 50% {
+        -moz-transform: scaleY(0);
+    }
+
+    100% {
+        -moz-transform: scaleY(1);
+    }
+}
+
+@-moz-keyframes back {
+    0%, 75% {
+        -moz-transform: scaleX(0);
+    }
+
+    100% {
+        -moz-transform: scaleX(1);
+    }
+}
+
+
+@keyframes main-b-ss8emb7hp2 {
+    0% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes edge-b-ss8emb7hp2 {
+    0%, 50% {
+        transform: scaleY(0);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes back-b-ss8emb7hp2 {
+    0%, 75% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+/* _content/BlazorApp/Shared/ErrorPages/500.razor.rz.scp.css */
+:root[b-unha550wdy] {
+    --firstColor: #00D69C;
+    --secondColor: #C52AFC;
+    --thirdColor: #FF1F00;
+    --fourthColor: #FFD600;
+}
+
+html[b-unha550wdy],
+body[b-unha550wdy] {
+    overflow: hidden;
+}
+
+main[b-unha550wdy] {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+}
+
+.blob[b-unha550wdy] {
+    margin: auto;
+}
+
+svg[b-unha550wdy] {
+    transform-origin: 50% 50%;
+    animation: move-b-unha550wdy 24s ease-in-out infinite;
+}
+
+@keyframes move-b-unha550wdy {
+    0% {
+        transform: scale(1) translate(0, 0) rotate(0);
+        fill: var(--firstColor);
+    }
+
+    25% {
+        transform: scale(0.8) translate(5vw, 10vh) rotate(55deg);
+        fill: var(--secondColor);
+    }
+
+    50% {
+        transform: scale(0.6) translate(15vw, 5vh) rotate(180deg);
+        fill: var(--thirdColor);
+    }
+
+    75% {
+        transform: scale(0.8) translate(5vw, 10h) rotate(55deg);
+        fill: var(--fourthColor);
+    }
+
+    100% {
+        transform: scale(1) translate(0, 0) rotate(0);
+        fill: var(--firstColor);
+    }
+}
+/* _content/BlazorApp/Shared/ErrorPages/501.razor.rz.scp.css */
+html[b-6pknt8v0s1], body[b-6pknt8v0s1] {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #606c88, #3f4c6b);
+    font-family: 'Oswald', sans-serif;
+}
+
+.button[b-6pknt8v0s1] {
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 4px;
+    position: relative;
+    background-color: #16a085;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    box-shadow: 0 5px 15px #193047;
+    border-radius: 4px;
+}
+
+    .button:hover[b-6pknt8v0s1] {
+        background: #fff;
+        box-shadow: 0px 2px 10px 5px #1abc9c;
+        color: #000;
+    }
+
+    .button[b-6pknt8v0s1]:after {
+        content: "";
+        background: #1abc9c;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    .button:active[b-6pknt8v0s1]:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+    }
+
+    .button:focus[b-6pknt8v0s1] {
+        outline: 0;
+    }
+/* _content/BlazorApp/Shared/ErrorPages/502.razor.rz.scp.css */
+.container[b-t6sta73ax5] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.loader[b-t6sta73ax5] {
+    max-width: 15rem;
+    width: 100%;
+    height: auto;
+    stroke-linecap: round;
+}
+
+circle[b-t6sta73ax5] {
+    fill: none;
+    stroke-width: 3.5;
+    animation-name: preloader-b-t6sta73ax5;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transform-origin: 170px 170px;
+    will-change: transform;
+    &:nth-of-type(1)
+
+{
+    stroke-dasharray: 550px;
+}
+
+&:nth-of-type(2)[b-t6sta73ax5] {
+    stroke-dasharray: 500px;
+}
+
+&:nth-of-type(3)[b-t6sta73ax5] {
+    stroke-dasharray: 450px;
+}
+
+&:nth-of-type(4)[b-t6sta73ax5] {
+    stroke-dasharray: 300px;
+}
+
+@for $i from 1 through 4 {
+    &:nth-of-type(#{$i})[b-t6sta73ax5] {
+        animation-delay: -#
+
+{
+    $i * 0.15
+}
+
+s;[b-t6sta73ax5]
+}
+}
+}
+
+@keyframes preloader-b-t6sta73ax5 {
+    50% {
+        transform: rotate(360deg);
+    }
+}
+/* _content/BlazorApp/Shared/ErrorPages/503.razor.rz.scp.css */
+.button[b-beh2n2fkrf] {
+    position: relative;
+    background-color: black;
+    border-radius: 4em;
+    font-size: 16px;
+    color: white;
+    padding: 0.8em 1.8em;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+}
+
+    .button:hover[b-beh2n2fkrf] {
+        transition-duration: 0.1s;
+        background-color: #3A3A3A;
+    }
+
+    .button[b-beh2n2fkrf]:after {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 4em;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: all 0.5s;
+        box-shadow: 0 0 10px 40px white;
+    }
+
+    .button:active[b-beh2n2fkrf]:after {
+        box-shadow: 0 0 0 0 white;
+        position: absolute;
+        border-radius: 4em;
+        left: 0;
+        top: 0;
+        opacity: 1;
+        transition: 0s;
+    }
+
+    .button:active[b-beh2n2fkrf] {
+        top: 1px;
+    }
+
 /* _content/BlazorApp/Shared/MainLayout.razor.rz.scp.css */
 .page[b-3dsd3z3yec] {
     position: relative;

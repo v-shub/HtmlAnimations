@@ -1,8 +1,12 @@
 ﻿@page "/500"
 
+@inject NavigationManager navManager
+
 <PageTitle>Internal Server Error</PageTitle>
 
-<h1>Internal Server Error</h1>
+<h1>Error 500: Internal Server Error</h1>
+
+<lottie-player id="500Lottie" src="https://lottie.host/022c504c-1dce-44bf-b58d-c2d975ba5b73/LrDpGuf4hT.json" background="transparent" speed="1" style="width: 200px; height: 200px;" @onclick="GoHome"></lottie-player>
 
 <main>
     <div class="blob">
@@ -20,3 +24,11 @@
 
     </div>
 </main>
+
+
+@code{
+    private async Task GoHome()
+    {
+        navManager.NavigateTo("/", true);
+    }
+}
