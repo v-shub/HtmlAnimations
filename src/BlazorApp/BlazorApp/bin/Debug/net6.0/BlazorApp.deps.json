@@ -8,6 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "BlazorApp/1.0.0": {
         "dependencies": {
+          "Blazorise.Animate": "1.7.1",
+          "Blazorise.Bootstrap5": "1.7.1",
+          "Blazorise.LottieAnimation": "1.7.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.20",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.20",
           "MudBlazor": "6.21.0"
@@ -50,6 +53,70 @@
           }
         }
       },
+      "Blazorise/1.7.1": {
+        "dependencies": {
+          "Blazorise.Licensing": "1.3.0",
+          "Microsoft.AspNetCore.Components": "6.0.36",
+          "Microsoft.AspNetCore.Components.Web": "6.0.36",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Blazorise.dll": {
+            "assemblyVersion": "1.7.1.0",
+            "fileVersion": "1.7.1.0"
+          }
+        }
+      },
+      "Blazorise.Animate/1.7.1": {
+        "dependencies": {
+          "Blazorise": "1.7.1",
+          "Microsoft.AspNetCore.Components": "6.0.36",
+          "Microsoft.AspNetCore.Components.Web": "6.0.36",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Blazorise.Animate.dll": {
+            "assemblyVersion": "1.7.1.0",
+            "fileVersion": "1.7.1.0"
+          }
+        }
+      },
+      "Blazorise.Bootstrap5/1.7.1": {
+        "dependencies": {
+          "Blazorise": "1.7.1",
+          "Microsoft.AspNetCore.Components": "6.0.36",
+          "Microsoft.AspNetCore.Components.Web": "6.0.36",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Blazorise.Bootstrap5.dll": {
+            "assemblyVersion": "1.7.1.0",
+            "fileVersion": "1.7.1.0"
+          }
+        }
+      },
+      "Blazorise.Licensing/1.3.0": {
+        "runtime": {
+          "lib/net6.0/Blazorise.Licensing.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.0.0"
+          }
+        }
+      },
+      "Blazorise.LottieAnimation/1.7.1": {
+        "dependencies": {
+          "Blazorise": "1.7.1",
+          "Microsoft.AspNetCore.Components": "6.0.36",
+          "Microsoft.AspNetCore.Components.Web": "6.0.36",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Blazorise.LottieAnimation.dll": {
+            "assemblyVersion": "1.7.1.0",
+            "fileVersion": "1.7.1.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -58,63 +125,63 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authorization/6.0.28": {
+      "Microsoft.AspNetCore.Authorization/6.0.36": {
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "6.0.28",
+          "Microsoft.AspNetCore.Metadata": "6.0.36",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
           "Microsoft.Extensions.Options": "7.0.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2824.12005"
+            "fileVersion": "6.0.3624.51604"
           }
         }
       },
-      "Microsoft.AspNetCore.Components/6.0.28": {
+      "Microsoft.AspNetCore.Components/6.0.36": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "6.0.28",
-          "Microsoft.AspNetCore.Components.Analyzers": "6.0.28"
+          "Microsoft.AspNetCore.Authorization": "6.0.36",
+          "Microsoft.AspNetCore.Components.Analyzers": "6.0.36"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Components.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2824.12005"
+            "fileVersion": "6.0.3624.51604"
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/6.0.28": {},
-      "Microsoft.AspNetCore.Components.Forms/6.0.28": {
+      "Microsoft.AspNetCore.Components.Analyzers/6.0.36": {},
+      "Microsoft.AspNetCore.Components.Forms/6.0.36": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.28"
+          "Microsoft.AspNetCore.Components": "6.0.36"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2824.12005"
+            "fileVersion": "6.0.3624.51604"
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Web/6.0.28": {
+      "Microsoft.AspNetCore.Components.Web/6.0.36": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.28",
-          "Microsoft.AspNetCore.Components.Forms": "6.0.28",
+          "Microsoft.AspNetCore.Components": "6.0.36",
+          "Microsoft.AspNetCore.Components.Forms": "6.0.36",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
-          "Microsoft.JSInterop": "6.0.28",
+          "Microsoft.JSInterop": "6.0.36",
           "System.IO.Pipelines": "6.0.3"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2824.12005"
+            "fileVersion": "6.0.3624.51604"
           }
         }
       },
-      "Microsoft.AspNetCore.Metadata/6.0.28": {
+      "Microsoft.AspNetCore.Metadata/6.0.36": {
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2824.12005"
+            "fileVersion": "6.0.3624.51604"
           }
         }
       },
@@ -484,11 +551,11 @@
           }
         }
       },
-      "Microsoft.JSInterop/6.0.28": {
+      "Microsoft.JSInterop/6.0.36": {
         "runtime": {
           "lib/net6.0/Microsoft.JSInterop.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2824.12005"
+            "fileVersion": "6.0.3624.51604"
           }
         }
       },
@@ -531,8 +598,8 @@
       },
       "MudBlazor/6.21.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.28",
-          "Microsoft.AspNetCore.Components.Web": "6.0.28",
+          "Microsoft.AspNetCore.Components": "6.0.36",
+          "Microsoft.AspNetCore.Components.Web": "6.0.36",
           "Microsoft.Extensions.Localization": "6.0.28"
         },
         "runtime": {
@@ -785,6 +852,41 @@
       "path": "azure.identity/1.10.3",
       "hashPath": "azure.identity.1.10.3.nupkg.sha512"
     },
+    "Blazorise/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4ItyG6qG2mhNKdrDYkywamRvWbIX7/tNvyKeR2a1LyPLgYJj735p5pwTugnV80r9t9KSKM9cZIWd1WoOuZC7dw==",
+      "path": "blazorise/1.7.1",
+      "hashPath": "blazorise.1.7.1.nupkg.sha512"
+    },
+    "Blazorise.Animate/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/IS0H5AtndecETz5YrK5yAZwk+QJh/pXCVveQnzxNlWjb5Y/qdyEvpO6SNerVg43tOi9cdm9jl+1p6Ab9ByDcw==",
+      "path": "blazorise.animate/1.7.1",
+      "hashPath": "blazorise.animate.1.7.1.nupkg.sha512"
+    },
+    "Blazorise.Bootstrap5/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5hJ5YOU/SLTvjEBrgs8X5MzujNM0cixpaOjZPnWtYXx8Iw2a4UOqkrB5o+xdxSbUscuk4CSfoykhhS3Ga63yjg==",
+      "path": "blazorise.bootstrap5/1.7.1",
+      "hashPath": "blazorise.bootstrap5.1.7.1.nupkg.sha512"
+    },
+    "Blazorise.Licensing/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NvQlbUgd6jY/ZfkJPlhHLaMVyvfp24OMehFV8Y6mrqLHqC0CfcoE+6+YP9FZMZKNAWmcNZ85WXmYFWVl0UXGfw==",
+      "path": "blazorise.licensing/1.3.0",
+      "hashPath": "blazorise.licensing.1.3.0.nupkg.sha512"
+    },
+    "Blazorise.LottieAnimation/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ym/d5gUHWEJ9CdjStZF8OKdYK8fT6etR/gYnWYFypV1NQCHcP9823V25rYsQyBq7cr7zz1sejn4XhIyReEGKqA==",
+      "path": "blazorise.lottieanimation/1.7.1",
+      "hashPath": "blazorise.lottieanimation.1.7.1.nupkg.sha512"
+    },
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -792,47 +894,47 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authorization/6.0.28": {
+    "Microsoft.AspNetCore.Authorization/6.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1F5jfI7dvWWJWT3ifAUw9p9hu8oOU140ckNq5egAN0gCNMM9LuCfLzh7o2Lch3lWv8mKyIqOohL1BRBdiTE05g==",
-      "path": "microsoft.aspnetcore.authorization/6.0.28",
-      "hashPath": "microsoft.aspnetcore.authorization.6.0.28.nupkg.sha512"
+      "sha512": "sha512-/UkyIBwx4BAcDmrBFrAFf9M/pzXn2azPdmtjqT07sc9xvlyk9kOECFupJUFPHagNe/ePC6m4yeQfOgVv7FOx1w==",
+      "path": "microsoft.aspnetcore.authorization/6.0.36",
+      "hashPath": "microsoft.aspnetcore.authorization.6.0.36.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components/6.0.28": {
+    "Microsoft.AspNetCore.Components/6.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lXE2LXBKTTu1GfyARN95+J2YyAC3WaPoV8dQ41bUj+Rl3HUpsGWhT9Ee2norXt6ahrmplY+M9HAXua51HxDJeg==",
-      "path": "microsoft.aspnetcore.components/6.0.28",
-      "hashPath": "microsoft.aspnetcore.components.6.0.28.nupkg.sha512"
+      "sha512": "sha512-QSmgMLmWX9pu21rVkGHodQESZLE7D3rG2IT0olr8mOyHA2rgaV8kfot+dDAC8TBSuv8BcYJ8poL22F66ivc8dA==",
+      "path": "microsoft.aspnetcore.components/6.0.36",
+      "hashPath": "microsoft.aspnetcore.components.6.0.36.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components.Analyzers/6.0.28": {
+    "Microsoft.AspNetCore.Components.Analyzers/6.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+bYiCHw1/d9WmK0rIG4unntYKulel+icRpjrbZ1AwwbHVlJEumY/HSjQyujwIe9Yjk8S5VuI1qNUrOVtPvCD7A==",
-      "path": "microsoft.aspnetcore.components.analyzers/6.0.28",
-      "hashPath": "microsoft.aspnetcore.components.analyzers.6.0.28.nupkg.sha512"
+      "sha512": "sha512-9YzKvreEe4c6bAeJ8Sa6THnx6GGgNi8q315cpA88WkA1p1JQYRtX7782WZwRU1EwvO+v/x+LJECC4Ga4KCgXHw==",
+      "path": "microsoft.aspnetcore.components.analyzers/6.0.36",
+      "hashPath": "microsoft.aspnetcore.components.analyzers.6.0.36.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components.Forms/6.0.28": {
+    "Microsoft.AspNetCore.Components.Forms/6.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vEqj1aD07p1uqnhU9xjxtW97AF45AFvKK9BQ7uGDQ9U1P5s7ixUQYTDmKXJBN4dKMEImJQKfZkaQcEBuFMoYmg==",
-      "path": "microsoft.aspnetcore.components.forms/6.0.28",
-      "hashPath": "microsoft.aspnetcore.components.forms.6.0.28.nupkg.sha512"
+      "sha512": "sha512-YllldqfPbsP6o94+7RubQrnNLmkN5LnJEuKwJY5EL2mhvyFqPN33jFo4IKQs4B02rjB66ZfJQdFp7faTPVxFXA==",
+      "path": "microsoft.aspnetcore.components.forms/6.0.36",
+      "hashPath": "microsoft.aspnetcore.components.forms.6.0.36.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components.Web/6.0.28": {
+    "Microsoft.AspNetCore.Components.Web/6.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zCPFAt8xL6XmsXDIYwUShm+GzgfDQdWFJzLcfon8/e0HzGdukN+muyC9/sGdTaMRvpltLuSo4Kgc5cwX/Hixog==",
-      "path": "microsoft.aspnetcore.components.web/6.0.28",
-      "hashPath": "microsoft.aspnetcore.components.web.6.0.28.nupkg.sha512"
+      "sha512": "sha512-dLMvIZICjiZGIhnUTh4fT6k6w+JUBfuQWvlNIxZ2RJk/sFQ11pQMevUMnd1u+w7T1Ez4l3BQfRYobyrJFNIWzQ==",
+      "path": "microsoft.aspnetcore.components.web/6.0.36",
+      "hashPath": "microsoft.aspnetcore.components.web.6.0.36.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Metadata/6.0.28": {
+    "Microsoft.AspNetCore.Metadata/6.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OxkKn+575mzpFhqXmgEUsvXFd4tbN+i1RPUrLiVTAGmyQ+Ytff7+K8Y4MFv1bddk0pYdvVmM+q4BqR1Gwn3DDQ==",
-      "path": "microsoft.aspnetcore.metadata/6.0.28",
-      "hashPath": "microsoft.aspnetcore.metadata.6.0.28.nupkg.sha512"
+      "sha512": "sha512-9VgcKKs3TU1JschItYWFesTZ1B1VVx/+JqBlFGePf/hu1gghnnioePy3bXeyYE0CSIfYTbCVofTxwd6HMmjgzg==",
+      "path": "microsoft.aspnetcore.metadata/6.0.36",
+      "hashPath": "microsoft.aspnetcore.metadata.6.0.36.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -1051,12 +1153,12 @@
       "path": "microsoft.identitymodel.tokens/6.35.0",
       "hashPath": "microsoft.identitymodel.tokens.6.35.0.nupkg.sha512"
     },
-    "Microsoft.JSInterop/6.0.28": {
+    "Microsoft.JSInterop/6.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VZXR8NPHWf1wXIIfCkSyyCdGpNP/HZ6P3Pgza/6RyHYEWXI57y3ntABoXi/ZazUietDRw3aenmgUeQKh3AaxXw==",
-      "path": "microsoft.jsinterop/6.0.28",
-      "hashPath": "microsoft.jsinterop.6.0.28.nupkg.sha512"
+      "sha512": "sha512-e8jDwaCpfpSCR8f+UbbfU6ZrJE37svywOhevNnAuzQG9IdDJai/AgeAW19t2LMumFXVrdqhX/BIQNzSfyHpsXg==",
+      "path": "microsoft.jsinterop/6.0.36",
+      "hashPath": "microsoft.jsinterop.6.0.36.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

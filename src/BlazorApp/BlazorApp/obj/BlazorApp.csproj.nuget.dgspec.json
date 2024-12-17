@@ -40,6 +40,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Blazorise.Animate": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "Blazorise.Bootstrap5": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "Blazorise.LottieAnimation": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.20, )"

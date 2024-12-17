@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
 using Microsoft.AspNetCore.Components.Web;
 using MudBlazor.Services;
+using Blazorise.LottieAnimation;
+using Blazorise;
+using Blazorise.Bootstrap5;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +22,11 @@ builder.Services.AddScoped<ProtectedSessionStorage>();
 builder.Services.AddScoped<ProtectedLocalStorage>();
 builder.Services.AddMudServices();
 builder.Services.AddHttpClient();
+builder.Services.AddBlazorise(options =>
+{
+    options.Immediate = true;
+})
+    .AddBootstrap5Providers();
 
 var app = builder.Build();
 

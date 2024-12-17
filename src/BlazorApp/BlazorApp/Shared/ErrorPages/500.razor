@@ -1,12 +1,25 @@
 ﻿@page "/500"
 
 @inject NavigationManager navManager
+@using Blazorise.LottieAnimation
+@using Blazorise.Animate
 
 <PageTitle>Internal Server Error</PageTitle>
 
 <h1>Error 500: Internal Server Error</h1>
 
-<lottie-player id="500Lottie" src="https://lottie.host/022c504c-1dce-44bf-b58d-c2d975ba5b73/LrDpGuf4hT.json" background="transparent" speed="1" style="width: 200px; height: 200px;" @onclick="GoHome"></lottie-player>
+
+
+    @if (showAnimate)
+{
+    <LottieAnimation ElementId="500" Path="https://lottie.host/022c504c-1dce-44bf-b58d-c2d975ba5b73/LrDpGuf4hT.json" Style="width: 200px; height: 200px;">
+     <Animate Anchor="500" Auto></Animate>
+     </LottieAnimation>
+    }
+
+<Blazorise.Button Clicked="@Animate">
+    @buttonText
+</Blazorise.Button>
 
 <main>
     <div class="blob">
@@ -27,8 +40,23 @@
 
 
 @code{
-    private async Task GoHome()
+    private bool showAnimate = false;
+    private string buttonText = "Animate!";
+    private async Task Animate()
     {
-        navManager.NavigateTo("/", true);
+        if (!showAnimate)
+        {
+            showAnimate = true;
+            await InvokeAsync(StateHasChanged);
+            buttonText = "Restart!";
+        }
+        else
+        {
+            showAnimate = false;
+            buttonText = "Animate!";
+        }
+
+        await InvokeAsync(StateHasChanged);
     }
+}
 }

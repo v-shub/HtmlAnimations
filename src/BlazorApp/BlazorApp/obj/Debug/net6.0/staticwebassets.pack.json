@@ -1,14 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\user\\Desktop\\Рабочий стол\\Shubina\\HtmlAnimations\\src\\BlazorApp\\BlazorApp\\Shared\\ErrorPages\\500.razor.js",
-      "PackagePath": "staticwebassets\\Shared\\ErrorPages\\500.razor.js"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\Рабочий стол\\Shubina\\HtmlAnimations\\src\\BlazorApp\\BlazorApp\\Shared\\ErrorPages\\502.razor.js",
-      "PackagePath": "staticwebassets\\Shared\\ErrorPages\\502.razor.js"
-    },
-    {
       "Id": "C:\\Users\\user\\Desktop\\Рабочий стол\\Shubina\\HtmlAnimations\\src\\BlazorApp\\BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\BlazorApp.bundle.scp.css"
     },
