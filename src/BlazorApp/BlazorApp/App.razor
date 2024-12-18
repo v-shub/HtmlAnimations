@@ -1,22 +1,15 @@
 ﻿@using System.Net.Http.Headers;
-@using System.Net;
-@inject IHttpClientFactory ClientFactory
+@using System.Net; 
 @inject NavigationManager navManager
 @using Microsoft.AspNetCore.Components.Routing;
 @using Microsoft.AspNetCore.Components.Authorization;
 <CascadingAuthenticationState>
     <Router AppAssembly="@typeof(Program).Assembly" OnNavigateAsync="OnNavigateAsync">
         <Found Context="routeData">
-            <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
-                <NotAuthorized>
-                    <PageTitle>Unauthorized</PageTitle>
-                    <h1>Unauthorized</h1>
-                    <lottie-player src="https://lottie.host/8e95f071-0e23-43f1-8cf3-e15e1a528787/e43Sne4uRG.json" background="transparent" speed="1" style="width: 500px; height: 500px;" loop autoplay></lottie-player>
-                </NotAuthorized>
-                <Authorizing>
-                    Авторизация...
-                </Authorizing>
-            </AuthorizeRouteView>
+            <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
+            </RouteView>
+            @exMessage
+            @pageAddress
             <FocusOnNavigate RouteData="@routeData" Selector="h1" />
         </Found>
         <NotFound>
@@ -28,51 +21,58 @@
     </Router>
 </CascadingAuthenticationState>
 
-@code {
+@code {/*
     HttpClient httpClient = new HttpClient();
-    //await NavigateToErrorPage();
+    string exMessage = "";
+    string pageAddress = "/";
     protected async Task OnNavigateAsync(NavigationContext context)
-    {
-        /*string requestUri = "https://localhost:7255/";
-        var response = await httpClient.GetAsync(requestUri);
-        if (response != null&& !response.IsSuccessStatusCode)
         {
-            string pageAddress = "/";
-            switch (response.StatusCode)
+        var response = new HttpResponseMessage();
+        try
             {
+            response = await httpClient.GetAsync("https://localhost:7255/");
+        }
+        catch (Exception ex)
+            {
+            exMessage = ex.Message;
+        }
+        if (response != null&& !response.IsSuccessStatusCode)
+            {
+            switch (response.StatusCode)
+                {
                 case HttpStatusCode.BadRequest:
                     pageAddress += "400";
-                    break;
+                break;
                 case HttpStatusCode.Unauthorized:
                     pageAddress += "401";
-                    break;
+                break;
                 case HttpStatusCode.PaymentRequired:
                     pageAddress += "402";
-                    break;
+                break;
                 case HttpStatusCode.Forbidden:
                     pageAddress += "403";
-                    break;
+                break;
                 case HttpStatusCode.NotFound:
                     pageAddress += "404";
-                    break;
+                break;
                 case HttpStatusCode.MethodNotAllowed:
                     pageAddress += "405";
-                    break;
+                break;
                 case HttpStatusCode.NotImplemented:
                     pageAddress += "501";
-                    break;
+                break;
                 case HttpStatusCode.BadGateway:
                     pageAddress += "502";
-                    break;
+                break;
                 case HttpStatusCode.ServiceUnavailable:
                     pageAddress += "503";
-                    break;
-                default:
+                break;
+                    default:
                     pageAddress += "500";
-                    break;
+            break;
             }
             context.CancellationToken.ThrowIfCancellationRequested();
-            navManager.NavigateTo(pageAddress, false, true);
-        }*/
+            //navManager.NavigateTo(pageAddress);
     }
+    }*/
 }
