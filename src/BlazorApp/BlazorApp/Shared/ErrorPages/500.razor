@@ -1,6 +1,4 @@
 ﻿@page "/500"
-
-@inject NavigationManager navManager
 @using Blazorise.LottieAnimation
 @using Blazorise.Animate
 
@@ -10,16 +8,7 @@
 
 
 
-    @if (showAnimate)
-{
-    <LottieAnimation ElementId="500" Path="https://lottie.host/022c504c-1dce-44bf-b58d-c2d975ba5b73/LrDpGuf4hT.json" Style="width: 200px; height: 200px;">
-     <Animate Anchor="500" Auto></Animate>
-     </LottieAnimation>
-    }
-
-<Blazorise.Button Clicked="@Animate">
-    @buttonText
-</Blazorise.Button>
+<LottieAnimation Path="https://lottie.host/b2b58485-9558-4654-9e85-a24678769315/ZJrGW6AaUW.json" Style="width: 300px; height: 300px;" @onclick="NewLoop" @bind-value="anim500" Paused="isPaused"></LottieAnimation>
 
 <main>
     <div class="blob">
@@ -40,23 +29,11 @@
 
 
 @code{
-    private bool showAnimate = false;
-    private string buttonText = "Animate!";
-    private async Task Animate()
+    LottieAnimation anim500;
+    bool isPaused;
+    private async Task NewLoop()
     {
-        if (!showAnimate)
-        {
-            showAnimate = true;
-            await InvokeAsync(StateHasChanged);
-            buttonText = "Restart!";
-        }
-        else
-        {
-            showAnimate = false;
-            buttonText = "Animate!";
-        }
-
+        isPaused = !isPaused;
         await InvokeAsync(StateHasChanged);
     }
-}
 }

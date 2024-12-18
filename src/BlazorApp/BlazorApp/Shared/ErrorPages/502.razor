@@ -1,13 +1,14 @@
 ﻿@page "/502"
 
-@inject NavigationManager navManager
+@using Blazorise.LottieAnimation
+@using Blazorise.Animate
 
 <PageTitle>Bad Gateway</PageTitle>
 
 <h1>Error 502: Bad Gateway</h1>
 
+<LottieAnimation Path="https://lottie.host/9cbe45fc-28d5-41ab-923e-fbb2bbcaa7ab/yfUxVOwLhe.json" Style="width: 500px; height: 500px;" @onclick="NewLoop" @bind-value="anim502" Paused="isPaused"></LottieAnimation>
 
-<lottie-player id="502Lottie" src="https://lottie.host/6f4a9360-891b-4198-aeb1-34a8cec48c2a/5PW3AzmQOV.json" background="transparent" speed="1" style="width: 200px; height: 200px;" @onclick="GoHome"></lottie-player>
 
 <div class="container">
 
@@ -21,8 +22,11 @@
 </div>
 
 @code {
-	private async Task GoHome()
-	{
-		navManager.NavigateTo("/", true);
-	}
+    LottieAnimation anim502;
+    bool isPaused;
+    private async Task NewLoop()
+    {
+        isPaused = !isPaused;
+        await InvokeAsync(StateHasChanged);
+    }
 }
