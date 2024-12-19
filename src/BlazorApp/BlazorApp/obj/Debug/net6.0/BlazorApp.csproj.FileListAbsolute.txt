@@ -598,3 +598,14 @@ C:\Users\user\Desktop\Рабочий стол\Shubina\HtmlAnimations\src\BlazorA
 C:\Users\user\Desktop\Рабочий стол\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net6.0\Blazorise.Licensing.dll
 C:\Users\user\Desktop\Рабочий стол\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net6.0\Blazorise.LottieAnimation.dll
 C:\Users\user\Desktop\Рабочий стол\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net6.0\Blazorise.Bootstrap5.dll
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net6.0\Blazorise.dll
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net6.0\Blazorise.Animate.dll
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net6.0\Blazorise.Bootstrap5.dll
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net6.0\Blazorise.Licensing.dll
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net6.0\Blazorise.LottieAnimation.dll
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\ErrorPages\400.razor.rz.scp.css
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\ErrorPages\405.razor.rz.scp.css
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\ErrorPages\500.razor.rz.scp.css
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\ErrorPages\501.razor.rz.scp.css
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\ErrorPages\502.razor.rz.scp.css
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\ErrorPages\503.razor.rz.scp.css

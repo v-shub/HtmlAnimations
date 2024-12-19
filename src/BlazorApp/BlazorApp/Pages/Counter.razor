@@ -1,4 +1,6 @@
 ﻿@page "/counter"
+@using Microsoft.AspNetCore.Http.HttpResults;
+@inject StatusCodeHttpResult statusCode
 
 <PageTitle>Counter</PageTitle>
 
@@ -16,3 +18,4 @@
         currentCount++;
     }
 }
+

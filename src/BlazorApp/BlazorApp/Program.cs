@@ -30,6 +30,8 @@ builder.Services.AddBlazorise(options =>
 
 var app = builder.Build();
 
+app.UseStatusCodePagesWithReExecute("/{0}");
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -37,22 +39,6 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-/*
-app.UseStatusCodePages(async statusCodeContext =>
-{
-    var response = statusCodeContext.HttpContext.Response;
-    var path = statusCodeContext.HttpContext.Request.Path;
-
-    response.ContentType = "text/plain; charset=UTF-8";
-    if (response.StatusCode == 403)
-    {
-        await response.WriteAsync($"Path: {path}. Access Denied ");
-    }
-    else if (response.StatusCode == 404)
-    {
-        await response.WriteAsync($"Resource {path} Not Found");
-    }
-});*/
 
 app.UseHttpsRedirection();
 

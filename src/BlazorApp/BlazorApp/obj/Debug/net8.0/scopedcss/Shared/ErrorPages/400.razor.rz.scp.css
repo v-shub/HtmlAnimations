@@ -6,8 +6,8 @@
 }
 
 .typing-demo[b-tgbqv7kttv] {
-    width: 22ch;
-    animation: typing-b-tgbqv7kttv 2s steps(22), blink-b-tgbqv7kttv .5s step-end infinite alternate;
+    width: 42ch;
+    animation: typing-b-tgbqv7kttv 2s steps(42), blink-b-tgbqv7kttv .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;

@@ -87,6 +87,18 @@ C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\n
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net8.0\BlazorApp.pdb
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net8.0\BlazorApp.genruntimeconfig.cache
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net8.0\ref\BlazorApp.dll
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net8.0\scopedcss\Shared\ErrorPages\400.razor.rz.scp.css
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net8.0\scopedcss\Shared\ErrorPages\405.razor.rz.scp.css
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net8.0\scopedcss\Shared\ErrorPages\502.razor.rz.scp.css
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net8.0\scopedcss\Shared\ErrorPages\500.razor.rz.scp.css
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Blazorise.dll
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Blazorise.Animate.dll
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Blazorise.Bootstrap5.dll
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Blazorise.Licensing.dll
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Blazorise.LottieAnimation.dll
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net8.0\scopedcss\Shared\ErrorPages\501.razor.rz.scp.css
+C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net8.0\scopedcss\Shared\ErrorPages\503.razor.rz.scp.css
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.Build.Locator.dll
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -97,7 +109,6 @@ C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\n
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\System.ClientModel.dll
@@ -177,7 +188,3 @@ C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\n
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net8.0\scopedcss\Shared\ErrorPages\400.razor.rz.scp.css
-C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net8.0\scopedcss\Shared\ErrorPages\405.razor.rz.scp.css
-C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net8.0\scopedcss\Shared\ErrorPages\502.razor.rz.scp.css
-C:\Users\user\Desktop\Shubina\HtmlAnimations\src\BlazorApp\BlazorApp\obj\Debug\net8.0\scopedcss\Shared\ErrorPages\500.razor.rz.scp.css

@@ -1,78 +1,24 @@
-﻿@using System.Net.Http.Headers;
-@using System.Net; 
-@inject NavigationManager navManager
-@using Microsoft.AspNetCore.Components.Routing;
+﻿@using Microsoft.AspNetCore.Components.Routing;
 @using Microsoft.AspNetCore.Components.Authorization;
+@using BlazorApp.Shared.ErrorPages;
 <CascadingAuthenticationState>
-    <Router AppAssembly="@typeof(Program).Assembly" OnNavigateAsync="OnNavigateAsync">
-        <Found Context="routeData">
-            <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
-            </RouteView>
-            @exMessage
-            @pageAddress
-            <FocusOnNavigate RouteData="@routeData" Selector="h1" />
-        </Found>
-        <NotFound>
-            <PageTitle>Not found</PageTitle>
-            <LayoutView Layout="@typeof(MainLayout)">
-                <lottie-player src="https://lottie.host/325b0472-360e-4ef8-beaf-789ebe80c770/lKNc5GknKz.json" background="transparent" speed="1" style="width: 500px; height: 500px;" loop autoplay></lottie-player>
-            </LayoutView>
-        </NotFound>
-    </Router>
-</CascadingAuthenticationState>
+<Router AppAssembly="typeof(Program).Assembly">
+    <Found Context="routeData">
+        <AuthorizeRouteView RouteData="routeData" DefaultLayout="typeof(MainLayout)">
+            <NotAuthorized>
+                <_401/>
+            </NotAuthorized>
+            <Authorizing>
+                Авторизация...
+            </Authorizing>
+        </AuthorizeRouteView>
+        <FocusOnNavigate RouteData="routeData" Selector="h1" />
+    </Found>
 
-@code {/*
-    HttpClient httpClient = new HttpClient();
-    string exMessage = "";
-    string pageAddress = "/";
-    protected async Task OnNavigateAsync(NavigationContext context)
-        {
-        var response = new HttpResponseMessage();
-        try
-            {
-            response = await httpClient.GetAsync("https://localhost:7255/");
-        }
-        catch (Exception ex)
-            {
-            exMessage = ex.Message;
-        }
-        if (response != null&& !response.IsSuccessStatusCode)
-            {
-            switch (response.StatusCode)
-                {
-                case HttpStatusCode.BadRequest:
-                    pageAddress += "400";
-                break;
-                case HttpStatusCode.Unauthorized:
-                    pageAddress += "401";
-                break;
-                case HttpStatusCode.PaymentRequired:
-                    pageAddress += "402";
-                break;
-                case HttpStatusCode.Forbidden:
-                    pageAddress += "403";
-                break;
-                case HttpStatusCode.NotFound:
-                    pageAddress += "404";
-                break;
-                case HttpStatusCode.MethodNotAllowed:
-                    pageAddress += "405";
-                break;
-                case HttpStatusCode.NotImplemented:
-                    pageAddress += "501";
-                break;
-                case HttpStatusCode.BadGateway:
-                    pageAddress += "502";
-                break;
-                case HttpStatusCode.ServiceUnavailable:
-                    pageAddress += "503";
-                break;
-                    default:
-                    pageAddress += "500";
-            break;
-            }
-            context.CancellationToken.ThrowIfCancellationRequested();
-            //navManager.NavigateTo(pageAddress);
-    }
-    }*/
-}
+    <NotFound>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <_404/>
+        </LayoutView>
+    </NotFound>
+</Router>
+</CascadingAuthenticationState>
