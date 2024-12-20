@@ -1,32 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Shubina\\HtmlAnimations\\src\\BlazorApp\\BlazorApp\\BlazorApp.csproj": {}
+    "C:\\Users\\user\\Desktop\\рабочий стол\\24ИС-11-2\\Shubina\\HtmlAnimations\\src\\BlazorApp\\BlazorApp\\BlazorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Shubina\\HtmlAnimations\\src\\BlazorApp\\BlazorApp\\BlazorApp.csproj": {
+    "C:\\Users\\user\\Desktop\\рабочий стол\\24ИС-11-2\\Shubina\\HtmlAnimations\\src\\BlazorApp\\BlazorApp\\BlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Shubina\\HtmlAnimations\\src\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\рабочий стол\\24ИС-11-2\\Shubina\\HtmlAnimations\\src\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
         "projectName": "BlazorApp",
-        "projectPath": "C:\\Users\\user\\Desktop\\Shubina\\HtmlAnimations\\src\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\рабочий стол\\24ИС-11-2\\Shubina\\HtmlAnimations\\src\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Shubina\\HtmlAnimations\\src\\BlazorApp\\BlazorApp\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\рабочий стол\\24ИС-11-2\\Shubina\\HtmlAnimations\\src\\BlazorApp\\BlazorApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -34,16 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Blazorise.Animate": {
               "target": "Package",
@@ -59,13 +59,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[7.0.20, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[7.0.20, )"
             },
             "MudBlazor": {
               "target": "Package",
@@ -91,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
